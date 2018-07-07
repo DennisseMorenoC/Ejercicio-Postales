@@ -1,0 +1,35 @@
+#titulo{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.card-img-top{
+    padding: 1%;
+}
+.card-text{
+    font-size: 14px;
+}
+.card{
+    display: flex;
+}
+.card-group{
+    width: 100%;
+}
+@media (max-width: 576px){
+    h1{
+        font-size: 22px;
+    }
+    .card-img-top{
+        padding-top: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .card-body{
+        padding-top: 1%;
+    }
+    
+   
+}
